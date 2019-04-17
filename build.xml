@@ -87,14 +87,12 @@
 	  </condition>
 
 
-	  <!-- optionally set the required artifacts here
 	<fail unless="have_main">no src/main</fail>
 	<fail unless="have_annotations">no src/annotations</fail>
 	<fail unless="have_peers">no src/peers</fail>
 	<fail unless="have_classes">no src/classes</fail>
 	<fail unless="have_tests">no src/tests</fail>
 	<fail unless="have_examples">no src/examples</fail>
-	-->
 
   </target>
 
